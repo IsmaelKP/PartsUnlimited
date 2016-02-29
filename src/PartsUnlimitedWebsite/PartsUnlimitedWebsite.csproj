@@ -300,6 +300,7 @@
     <Content Include="Content\Account.css.map">
       <DependentUpon>Account.css</DependentUpon>
     </Content>
+    <None Include="Properties\PublishProfiles\PartsUnlimitedName.pubxml" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Images\admin_icon.png" />
     <Content Include="Images\admin_mo_icon.png" />
@@ -518,7 +519,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Properties\PublishProfiles\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
